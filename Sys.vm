@@ -7,15 +7,17 @@
 // stack, so that, from the point of view of the callee, the
 // result is at the top of the stack.
 // Push to the stack the minimum of two arguments.
-function Sys.min 0
+function Sys.min 2
 push argument 0
 push argument 1
 lt 
 if-goto A
-push argument 1
-goto END
+goto C
 label A
 push argument 0
+goto END
+label C 
+push argument 1
 lebel END
 return
 
@@ -36,7 +38,7 @@ return
 // stack, so that, from the point of view of the callee, the
 // result is at the top of the stack.
 // Push to the stack the minimum of two arguments.
-function Sys.max 0
+function Sys.max 2
 push argument 0
 push argument 1
 gt 
