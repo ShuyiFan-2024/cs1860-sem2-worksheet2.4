@@ -7,7 +7,6 @@
 // stack, so that, from the point of view of the callee, the
 // result is at the top of the stack.
 // Push to the stack the minimum of two arguments.
-//
 function Sys.min 0
 push argument 0
 push argument 1
@@ -37,7 +36,6 @@ return
 // stack, so that, from the point of view of the callee, the
 // result is at the top of the stack.
 // Push to the stack the minimum of two arguments.
-//
 function Sys.max 0
 push argument 0
 push argument 1
@@ -65,7 +63,6 @@ return
 // Before returning, the function pushes the result onto the
 // stack, so that, from the point of view of the callee, the
 // result is at the top of the stack.
-//
 function Sys.range 2
 push argument 0
 pop pointer 0
@@ -119,8 +116,7 @@ return
 // with the virtual machine emulator. Please do not submit this
 // file to Gradescope, as this will cause your submission to be
 // rejected.
-//
 function Sys.init 0
-call Sys.range 2
+    call Sys.range 2
 label WHILE
-goto WHILE
+    goto WHILE
