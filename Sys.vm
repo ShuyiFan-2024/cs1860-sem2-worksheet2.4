@@ -15,10 +15,8 @@ lt
 if-goto A
 push argument 1
 goto END
-
 label A
 push argument 0
-
 lebel END
 return
 
@@ -47,10 +45,8 @@ gt
 if-goto B 
 push argument 1
 goto END
-
 label B 
 push argument 0
-
 label END
 return
 
