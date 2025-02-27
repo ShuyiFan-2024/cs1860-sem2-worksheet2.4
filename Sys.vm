@@ -43,10 +43,12 @@ push argument 0
 push argument 1
 gt 
 if-goto B 
-push argument 1
-goto END
+goto D 
 label B 
 push argument 0
+goto END
+label D 
+goto END
 label END
 return
 
