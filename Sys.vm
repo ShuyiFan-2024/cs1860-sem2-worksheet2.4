@@ -26,7 +26,6 @@ return
     
     
     
-    // Your implementation goes here.
 
 
 
@@ -42,7 +41,6 @@ return
 // Push to the stack the minimum of two arguments.
 //
 function Sys.max 0
-    // Your implementation goes here.
 push argument 0
 push argument 1
 gt 
@@ -73,7 +71,6 @@ return
 // result is at the top of the stack.
 //
 function Sys.range 2
-    // Your implementation goes here.
 push argument 0
 pop pointer 1
 push that 0
